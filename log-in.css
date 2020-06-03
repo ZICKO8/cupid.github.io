@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+section {
+    background-image: url(./top-section\ img.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+main {
+    background: rgb(0, 0, 0, 0.8);
+    padding: 2rem;
+    height: 100vh;
+}
+header {
+    text-align: center;
+    line-height: 6rem;
+    background:rgb(207, 202, 202);
+    width: 100%;
+    border-bottom: 1px solid red;
+}
+
+h1 a {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 2rem;
+    color: rgb(207, 202, 202);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 4rem;
+    width: 50%;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid grey;
+    margin: 0.5rem;
+    box-shadow: 0px 1px 1px black;
+}
+
+.log-in-btn {
+    padding: 1rem 2rem;
+    border: 1px solid red;
+    background: none;
+    border-radius: 5rem;
+    box-shadow: 1px 1px 1px black;
+    margin: 1rem;
+    transition: all 0.5s ease;
+}
+.log-in-btn:hover {
+    background: red;
+}
+form a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.log-in-downsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#p1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(207, 202, 202);
+    padding: 1rem;
+    padding-top: 0;
+}
+
+.log-in-downsection button {
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid red;
+    background: rgb(207, 202, 202, 0.5);
+    
+}
+.log-in-downsection button:hover {
+    background: grey;
+}
+.log-in-downsection button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#p2 a {
+    text-decoration: none;
+    color: seagreen;
+    font-size: 1.3rem;
+
+}
+#p2 {
+    margin: 1rem;
+
+}
+
+@media screen and (min-width: 600px) {
+    .input {
+        width: 30%;
+    }
+}

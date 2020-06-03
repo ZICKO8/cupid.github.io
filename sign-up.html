@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_up/Cupid</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html">Cupid</a></h1>
+    </header>
+    
+    <main>
+        <section class="section">
+        <div class="intro">
+        <h2>Sign Up</h2>
+        <p>Create a free account and unlock all features</p>
+        </div>
+        <form>
+            <section class="top-input-section">
+            <div class="email-div">
+            <label class="top-label" for="email">Email</label>
+            <input class="top-input" type="email" name="email" id="email" placeholder="Enter email address">
+            </div>
+            <div class="firstname-div">
+            <label class="top-label" for="firstname">First Name</label>
+            <input class="top-input" type="text" name="firstname" id="firstname" placeholder="Enter first name">
+            </div>
+            <div class="lastname-div">
+            <label class="top-label" for="lastname">Last Name</label>
+            <input class="top-input" type="text" name="lastname" id="lastname" placeholder="Enter last name">
+            </div>
+            <div class="password-div">
+            <label class="top-label" for="pasword">Password</label>
+            <input class="top-input" type="password" name="password" id="password" placeholder="******" minlength="6" maxlength="8">
+            </div>
+            <div class="repass-div">
+            <label class="top-label" class="label" for=repass>Confirm Password</label>
+            <input class="top-input" type="password" name="confirm-password" id="repass" placeholder="******" minlength="6" maxlength="8">
+            </div>
+            </section>
+        
+            <h3>Date of Birth</h3>
+            <input class="date" type="date" name="date">
+            <h3>Gender</h3>
+            <input class="radio" type="radio" name="sex" id="male">
+            <label class="radio-label" for="male">Male</label>
+            <input class="radio" type="radio" name="sex" id="female">
+            <label class="radio-label" for="female">Female</label>
+            <h3>Interest</h3>
+            <input class="radio" type="radio" name="Interest" id="male2">
+            <label class="radio-label" for="male2">Male</label>
+            <input class="radio" type="radio" name="Interest" id="female2">
+            <label class="radio-label" for="female2">Female</label>
+            <input class="radio" type="radio" name="Interest" id="both">
+            <label class="radio-label" for="both">Both</label>
+
+            <select name="int" id="age">
+                <option value="0">Age</option>
+                <option value="1">20</option>
+                <option value="2">21</option>
+                <option value="3">22</option>
+                <option value="4">23</option>
+                <option value="5">24</option>
+                <option value="6">25</option>
+            </select>
+            <h3>Location</h3>
+            <select class="location" name="" id="">
+                <option value="0">Country</option>
+                <option value="1">Nigeria</option>
+                <option value="2">Ghana</option>
+                <option value="3">Togo</option>
+                <option value="4">Cameroon</option>
+                <option value="5">Uganda</option>
+            </select>
+            <select class="location" name="location" id="state">
+                <option value="0">State</option>
+                <option value="1">OYO</option>
+                <option value="2">Lagos</option>
+                <option value="3">Kwara</option>
+                <option value="4">Kebbi</option>
+                <option value="5">Ogun</option>
+            </select>
+            <select class="location" name="location" id="city">
+                <option value="0">City</option>
+                <option value="1">Ikeja</option>
+                <option value="2">Ibadan</option>
+                <option value="3">Ilorin</option>
+                <option value="4">Birnin-Kebbi</option>
+                <option value="5">Abe-Okuta</option>
+            </select>
+            <div class="btn2">
+                <button id="btn2">Create Account</button>
+            </div>
+            <p>Already have an account? <a href="./log-in.html">Log In</a></p>
+        </form>
+    </section>
+    </main>
+</body>
+<footer>
+    <p>&copy zickodes 2020</p>
+</footer>
+</html>
